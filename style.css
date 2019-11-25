@@ -4,11 +4,16 @@
 
 img {
     width: 272px;
-    height: 92px;
-    text-align: center;
+    height: 92px;  
+    
 }
 
-
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 225px;
+  }
 
 .related-searches {
     text-align: center;
@@ -32,4 +37,5 @@ nav {
 
 .li-navbar {
     display: inline-block;
+    padding: .5em .75em .5em 1em;
 }
