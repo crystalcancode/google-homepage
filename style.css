@@ -1,16 +1,17 @@
 * {
     font-family:arial;
-    color:#464646
+    color:#000000;
   }
   
-  li {
+  .topmenu {
     display:inline-block;
-    float: right;
+    float:right;
     padding: 0em .5em 0em .5em;
+    font-family: arial;
   }
   
-  img {
-     display: block;
+  .googlelogo {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 12em; 
@@ -26,7 +27,19 @@
     padding: .75em 10em 0em 2em;
   }
   
-  footer{
+  .bothbuttons {
+    text-align: center;
+    padding: .5em 8em 0em 0em;
+  }
+
+  .button1 {
+    font-size: 1em;
+    margin: .5em;
     
   }
   
+  .button2 {
+    font-size: 1em;
+    margin: .5em;
+    
+  }
